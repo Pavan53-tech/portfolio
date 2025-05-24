@@ -20,7 +20,7 @@ https://Pavan53-tech.github.io/portfolio/
 
 ## Contact
 
-Feel free to reach out via email: your-email@example.com
+Feel free to reach out via email: pavankumarr912@gmail.com
 
 ---
 
