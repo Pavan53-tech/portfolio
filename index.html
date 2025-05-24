@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio | Pavankumar</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#home" class="logo">Pavankumar R</a>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero-section">
+    <div class="glass-card container">
+      <h1>Hi, I'm <span>Pavankumar R</span></h1>
+      <p class="typing-text"></p>
+      <a href="#projects" class="btn btn-gradient">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="section container">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate Full Stack Developer specializing in creating elegant, efficient, and user-friendly web applications using modern technologies.
+    </p>
+  </section>
+
+  <section id="projects" class="section container">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <article class="project-card">
+        <i class="fas fa-tools project-icon"></i>
+        <h3>FixKart</h3>
+        <p>Home service booking app built with React, Tailwind, and Firebase.</p>
+      </article>
+      <article class="project-card">
+        <i class="fas fa-code project-icon"></i>
+        <h3>Portfolio Website</h3>
+        <p>A sleek portfolio built with HTML, SCSS, and JavaScript.</p>
+      </article>
+      <article class="project-card">
+        <i class="fas fa-mobile-alt project-icon"></i>
+        <h3>Mobile App UI</h3>
+        <p>Responsive mobile app UI prototype using Figma.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills" class="section container">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">
+        <h4>HTML & CSS</h4>
+        <div class="progress-bar">
+          <div class="progress" style="width: 90%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h4>JavaScript</h4>
+        <div class="progress-bar">
+          <div class="progress" style="width: 85%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h4>React.js</h4>
+        <div class="progress-bar">
+          <div class="progress" style="width: 80%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h4>Node.js & Express</h4>
+        <div class="progress-bar">
+          <div class="progress" style="width: 75%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <h4>MongoDB</h4>
+        <div class="progress-bar">
+          <div class="progress" style="width: 70%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section container">
+    <h2>Contact Me</h2>
+    <form class="contact-form" novalidate>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn btn-gradient">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer container">
+    <p>&copy; 2025 Pavankumar. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
